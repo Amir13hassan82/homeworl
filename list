@@ -1,0 +1,17 @@
+inta = 36
+intb = 63
+intc = 22
+print(36 , 63 , 22)
+list1 = [36 , 63 , 22]
+print(f"list1 : {list1}")
+list1.remove(22)
+print("after remove: " , list1)
+list1.append(74)
+list1.append(49)
+print("after append: " , list1)
+list1.sort()
+print("after sort: " , list1)
+list1.pop()
+print("after pop: " , list1)
+list1.reverse()
+print("after revers: " , list1)
